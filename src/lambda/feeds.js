@@ -9,4 +9,14 @@ export function handler(event, context, callback) {
 
     'http://github-trends.ryotarai.info/rss/github_trends_javascript_daily.rss'
   ]
+
+  let parser = new Parser()
+
+  const feedRequests = FEEDS.map(feed => {
+    return parser.parseURL(feed)
+  })
+
+  Promise.all(feedRequests).then(response => {
+    
+  })
 }

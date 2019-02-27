@@ -2,7 +2,7 @@
   "name": "rss-feed-reader",
   "version": "1.0.0",
   "description": "RSS Feed Reader with Node and Vue.js",
-  "main": "index.js",
+  "main": "feeds.js",
   "scripts": {
     "test": "test"
   },
