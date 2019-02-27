@@ -1,0 +1,26 @@
+{
+  "name": "rss-feed-reader",
+  "version": "1.0.0",
+  "description": "RSS Feed Reader with Node and Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnware15/rss-feed-reader.git"
+  },
+  "author": "johnware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnware15/rss-feed-reader/issues"
+  },
+  "homepage": "https://github.com/johnware15/rss-feed-reader#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.2",
+    "rss-parser": "^3.6.3",
+    "vue-cli": "^2.9.6",
+    "vue-cli-plugin-netlify-lambda": "^0.1.0",
+    "vue-devtools": "^5.0.0-beta.1"
+  }
+}
